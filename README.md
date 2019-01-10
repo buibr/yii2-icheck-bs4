@@ -1,19 +1,19 @@
-phpNT - Yii2 ICheck
+buibr - Yii2 ICheck
 ================================
-[![Latest Stable Version](https://poser.pugx.org/phpnt/yii2-icheck/v/stable)](https://packagist.org/packages/phpnt/yii2-icheck) [![Total Downloads](https://poser.pugx.org/phpnt/yii2-icheck/downloads)](https://packagist.org/packages/phpnt/yii2-icheck) [![Latest Unstable Version](https://poser.pugx.org/phpnt/yii2-icheck/v/unstable)](https://packagist.org/packages/phpnt/yii2-icheck) [![License](https://poser.pugx.org/phpnt/yii2-chartjs/license)](https://packagist.org/packages/phpnt/yii2-icheck)
+[![Latest Stable Version](https://poser.pugx.org/buibr/yii2-icheck/v/stable)](https://packagist.org/packages/buibr/yii2-icheck) [![Total Downloads](https://poser.pugx.org/buibr/yii2-icheck/downloads)](https://packagist.org/packages/buibr/yii2-icheck) [![Latest Unstable Version](https://poser.pugx.org/buibr/yii2-icheck/v/unstable)](https://packagist.org/packages/buibr/yii2-icheck) [![License](https://poser.pugx.org/buibr/yii2-chartjs/license)](https://packagist.org/packages/buibr/yii2-icheck)
 
 ### Описание:
 ### Стилизованный чекбоксы и радиокнопки.
-### [DEMO](http://phpnt.com/widget/yii2-icheck)
+### [DEMO](http://buibr.com/widget/yii2-icheck)
 
 ------------
-### - [Поддержать phpNT](http://phpnt.com/donate/index) 
+### - [Поддержать buibr](http://buibr.com/donate/index) 
 ------------
 
 ### Социальные сети:
- - [Канал YouTube](https://www.youtube.com/c/phpnt)
- - [Группа VK](https://vk.com/phpnt)
- - [Группа facebook](https://www.facebook.com/Phpnt-595851240515413/)
+ - [Канал YouTube](https://www.youtube.com/c/buibr)
+ - [Группа VK](https://vk.com/buibr)
+ - [Группа facebook](https://www.facebook.com/buibr-595851240515413/)
 
 ------------
 
@@ -22,24 +22,24 @@ phpNT - Yii2 ICheck
 ------------
 
 ```
-php composer.phar require "phpnt/yii2-icheck" "*"
+php composer.phar require "buibr/yii2-icheck" "*"
 ```
 или
 
 ```
-composer require phpnt/yii2-icheck
+composer require buibr/yii2-icheck
 ```
 
 или добавить в composer.json файл
 
 ```
-"phpnt/yii2-icheck": "*"
+"buibr/yii2-icheck": "*"
 ```
 
 ### Представление:
 ------------
 ```php
-use phpnt\ICheck\ICheck;
+use buibr\ICheck\ICheck;
 ```
 ```html
 <h3>STYLE_MIMIMAL (цвета для STYLE_MIMIMAL - minimal (черный), red, green, blue, aero, grey, orange, yellow, pink, purple)</h3>

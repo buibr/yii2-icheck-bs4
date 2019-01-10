@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: phpNT - http://phpnt.com
+ * User: buibr - http://buibr.com
  * Date: 29.04.2017
  * Time: 11:59
  */
 
-namespace phpnt\ICheck;
+namespace buibr\ICheck;
 
 use yii\bootstrap\Html;
 use yii\helpers\Json;

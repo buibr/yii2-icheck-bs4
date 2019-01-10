@@ -1,19 +1,19 @@
 {
-    "name": "phpnt/yii2-icheck",
+    "name": "buibr/yii2-icheck",
     "description": "Yii2 ICheck",
-    "keywords": ["yii2", "phpnt", "icheck"],
+    "keywords": ["yii2", "buibr", "icheck"],
     "type": "yii2-extension",
     "license": "MIT",
     "minimum-stability" : "dev",
     "prefer-stable": true,
     "support": {
-        "source": "https://github.com/phpnt/yii2-icheck"
+        "source": "https://github.com/buibr/yii2-icheck"
     },
     "authors": [
         {
-            "name": "phpNT",
-            "email": "phpnt@phpnt.com",
-            "homepage": "http://phpnt.com"
+            "name": "buibr",
+            "email": "buibr@buibr.com",
+            "homepage": "http://buibr.com"
         }
     ],
     "require": {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "phpnt\\ICheck\\": ""
+            "buibr\\ICheck\\": ""
         }
     }
 }
