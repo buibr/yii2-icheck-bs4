@@ -8,7 +8,7 @@
 
 namespace buibr\ICheck;
 
-use yii\bootstrap\Html;
+use yii\bootstrap4\Html;
 use yii\helpers\Json;
 use yii\widgets\InputWidget;
 
