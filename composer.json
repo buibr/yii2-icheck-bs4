@@ -24,9 +24,9 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2-bootstrap4": "^1.0@dev",
         "yiisoft/yii2": "*",
-        "bower-asset/multi-select": "*"
+        "yiisoft/yii2-bootstrap4": "^1.0@dev",
+        "bower-asset/icheck": "*"
     },
     "autoload": {
         "psr-4": {

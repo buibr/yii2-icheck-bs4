@@ -83,7 +83,7 @@ class ICheck extends InputWidget
         $this->checkOptions = Json::encode($this->checkOptions);
 
         $js = <<< JS
-        
+            
             $(document).ready(function(){
              if ('$this->style' == 'line') {
                  if ('$this->color' == 'line') {
@@ -93,7 +93,7 @@ class ICheck extends InputWidget
                       label_text = label.text();
                 
                     label.remove();
-                    self.iCheck({
+                    self.icheck({
                       checkboxClass: 'icheckbox_line',
                       radioClass: 'iradio_line',
                       insert: '<div class="icheck_line-icon"></div>'
@@ -106,7 +106,7 @@ class ICheck extends InputWidget
                           label_text = label.text();
                     
                         label.remove();
-                        self.iCheck({
+                        self.icheck({
                           checkboxClass: 'icheckbox_line-$this->color',
                           radioClass: 'iradio_line-$this->color',
                           insert: '<div class="icheck_line-icon"></div>'
@@ -116,7 +116,7 @@ class ICheck extends InputWidget
               } 
             if ('$this->style' == 'minimal' || '$this->style' == 'square' || '$this->style' == 'flat' || '$this->style' == 'polaris' || '$this->style' == 'futurico') {
                 $(document).ready(function () {
-                    $(".i-checks-$this->id").iCheck($this->checkOptions);
+                    $(".i-checks-$this->id").icheck($this->checkOptions);
                 }); 
             }              
         });
