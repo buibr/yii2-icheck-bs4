@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class ICheckAsset extends AssetBundle
 {
-    public $sourcePath = '@buibr/icheck/assets';
+    public $sourcePath = '@buibr/ICheck/assets';
 
     public $js = [
         'icheck.min.js',
