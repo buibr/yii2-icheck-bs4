@@ -4,8 +4,6 @@
     "keywords": ["yii2", "buibr", "icheck"],
     "type": "yii2-extension",
     "license": "MIT",
-    "minimum-stability" : "dev",
-    "prefer-stable": true,
     "support": {
         "source": "https://github.com/buibr/yii2-icheck"
     },
@@ -25,7 +23,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "yiisoft/yii2-bootstrap4": "^1.0@dev",
+        "yiisoft/yii2-bootstrap4": "^1.0",
         "bower-asset/icheck": "*"
     },
     "autoload": {

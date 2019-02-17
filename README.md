@@ -2,38 +2,25 @@ buibr - Yii2 ICheck
 ================================
 [![Latest Stable Version](https://poser.pugx.org/buibr/yii2-icheck/v/stable)](https://packagist.org/packages/buibr/yii2-icheck) [![Total Downloads](https://poser.pugx.org/buibr/yii2-icheck/downloads)](https://packagist.org/packages/buibr/yii2-icheck) [![Latest Unstable Version](https://poser.pugx.org/buibr/yii2-icheck/v/unstable)](https://packagist.org/packages/buibr/yii2-icheck) [![License](https://poser.pugx.org/buibr/yii2-chartjs/license)](https://packagist.org/packages/buibr/yii2-icheck)
 
-### Описание:
-### Стилизованный чекбоксы и радиокнопки.
-### [DEMO](http://buibr.com/widget/yii2-icheck)
-
-------------
-### - [Поддержать buibr](http://buibr.com/donate/index) 
 ------------
 
-### Социальные сети:
- - [Канал YouTube](https://www.youtube.com/c/buibr)
- - [Группа VK](https://vk.com/buibr)
- - [Группа facebook](https://www.facebook.com/buibr-595851240515413/)
-
-------------
-
-Установка:
+Installation:
 
 ------------
 
 ```
 php composer.phar require "buibr/yii2-icheck" "*"
 ```
-или
+or
 
 ```
-composer require buibr/yii2-icheck
+composer require buibr/yii2-icheck-bs4
 ```
 
-или добавить в composer.json файл
+or add this to composer.js
 
 ```
-"buibr/yii2-icheck": "*"
+"buibr/yii2-icheck-bs4": "*"
 ```
 
 ### Представление:
@@ -42,7 +29,7 @@ composer require buibr/yii2-icheck
 use buibr\ICheck\ICheck;
 ```
 ```html
-<h3>STYLE_MIMIMAL (цвета для STYLE_MIMIMAL - minimal (черный), red, green, blue, aero, grey, orange, yellow, pink, purple)</h3>
+<h3>STYLE_MIMIMAL (STYLE_MIMIMAL - minimal, red, green, blue, aero, grey, orange, yellow, pink, purple)</h3>
 <div class="col-md-6">
     <?= $form->field($model, 'checkbox', ['template' => '{label} {input}'])->widget(ICheck::className(), [
         'type'  => ICheck::TYPE_CHECBOX,
